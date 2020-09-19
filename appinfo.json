@@ -1,0 +1,9 @@
+{
+    "name": "AutoByte",
+    "version": "0.0.1",
+    "url": "https://github.com/wmboeckman/autobyte",
+    "license": "MIT",
+    "author": "wmboe",
+    "author_email": "wmboeckman@gmail.com",
+    "description": "An easy-to-use Computer Automation Tool"
+}

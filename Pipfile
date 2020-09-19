@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+colorama = "==0.4.3"
+pyinstaller = "==4.0"
+pybuilder = "==0.12.9"
+
+[requires]
+python_version = "3.8"
