@@ -1,11 +1,10 @@
-import colorama as colors
 import os
-import time
 import threading
-from tkinter import *
+import time
+# from tkinter import *
 from tkinter import Button, Tk, HORIZONTAL
-from tkinter.ttk import Progressbar
 from tkinter import messagebox
+from tkinter.ttk import Progressbar
 
 
 def percentageCalculator(x, y, case=1):
@@ -56,7 +55,7 @@ def processEntry(entries):
 def runActions(progress, status):
     alist = range(10)
 
-    log = open("log.txt", "a")
+    # log = open("log.txt", "a")
 
     try:
 
@@ -70,7 +69,7 @@ def runActions(progress, status):
             time.sleep(1)  # some func
 
             step = "Working on {}".format(i)
-            log.write(str('\n[OK]'))
+            # log.write(str('\n[OK]'))
             progress['value'] = unit
             percent['text'] = "{}%".format(int(unit))
             status['text'] = "{}".format(step)
@@ -80,12 +79,11 @@ def runActions(progress, status):
         messagebox.showinfo('Info', "Process completed!")
         sys.exit()
 
-
     except Exception as e:
         messagebox.showinfo('Info', "ERROR: {}".format(e))
         sys.exit()
 
-    log.close()
+    # log.close()
 
 
 def main():

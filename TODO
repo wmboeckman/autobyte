@@ -1,0 +1,12 @@
+CLIENT-SIDE:
+------------
+ - Start development on a basic GUI.
+ - Start development on the cli interface.
+
+  NODE-SIDE:
+------------
+ - find a way to start a daemon service cross-platform that auto-starts during startup.
+
+     SHARED:
+------------
+ - setup application framework w/ boilerplate code.
